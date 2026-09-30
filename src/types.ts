@@ -1,4 +1,5 @@
 export type PlayerId = 1 | 2;
+export type GamePhase = "idle" | "playing" | "finished";
 export type QuestionType = "single" | "boolean" | "matching" | "multi";
 
 export interface Point { x: number; y: number; }
