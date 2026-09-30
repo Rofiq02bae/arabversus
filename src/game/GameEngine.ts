@@ -75,7 +75,7 @@ export class GameEngine {
 
     this.transitioning[playerId] = true;
     if (correct) {
-      this.scores[playerId] += APP_CONFIG.pointsPerCorrect;
+      this.scores[playerId] += APP_CONFIG.scoring.correct;
       this.callbacks.onScore(this.getScores());
     }
     this.callbacks.onAnswerSubmitted(playerId, question, correct);
