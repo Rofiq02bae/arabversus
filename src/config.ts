@@ -1,6 +1,8 @@
 export const APP_CONFIG = {
   gestureHoldMs: 560,
   gestureCooldownMs: 850,
+  answerTransitionDelayMs: 700,
+  dropSnapRadiusPx: 84,
   inferenceIntervalMs: 34,
   handLostCancelMs: 650,
   cursorSmoothing: 0.42,
